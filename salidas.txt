@@ -124,3 +124,35 @@ Matriz de asignacion final:
 0 20 0 0 0 0
 
 Valor de Z: 510
+
+
+----------------------- 
+
+Prueba zoom:
+Ingrese numero de origenes (m): 2
+Ingrese numero de destinos (n): 3
+
+Ingrese la matriz de costos:
+Costo[0][0]: 2
+Costo[0][1]: 4
+Costo[0][2]: 3
+Costo[1][0]: 1
+Costo[1][1]: 2
+Costo[1][2]: 4
+
+Ingrese el vector de oferta:
+Oferta[0]: 10
+Oferta[1]: 12
+
+Ingrese el vector de demanda:
+Demanda[0]: 5
+Demanda[1]: 10
+Demanda[2]: 10
+
+Matriz de asignacion final:
+0 3 7
+5 7 0
+
+Valor de Z: 52
+
+where is 3?
