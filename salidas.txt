@@ -1,0 +1,126 @@
+Prueba 1 (Problema 1):
+
+Ingrese numero de origenes (m): 3
+Ingrese numero de destinos (n): 3
+
+Ingrese la matriz de costos:
+Costo[0][0]: 4
+Costo[0][1]: 2
+Costo[0][2]: 1
+Costo[1][0]: 3
+Costo[1][1]: 8
+Costo[1][2]: 4
+Costo[2][0]: 6
+Costo[2][1]: 5
+Costo[2][2]: 2
+
+Ingrese el vector de oferta:
+Oferta[0]: 50
+Oferta[1]: 70
+Oferta[2]: 45
+
+Ingrese el vector de demanda:
+Demanda[0]: 40
+Demanda[1]: 65
+Demanda[2]: 60
+
+Matriz de asignacion final:
+0 0 50
+40 30 0
+0 35 10
+
+Valor de Z: 605
+
+------------------------------------
+
+Prueba 2 (Problema 4):
+
+Ingrese numero de origenes (m): 3
+Ingrese numero de destinos (n): 4
+
+Ingrese la matriz de costos:
+Costo[0][0]: 3
+Costo[0][1]: 1
+Costo[0][2]: 7
+Costo[0][3]: 4
+Costo[1][0]: 2
+Costo[1][1]: 6
+Costo[1][2]: 5
+Costo[1][3]: 9
+Costo[2][0]: 8
+Costo[2][1]: 3
+Costo[2][2]: 3
+Costo[2][3]: 2
+
+Ingrese el vector de oferta:
+Oferta[0]: 300
+Oferta[1]: 400
+Oferta[2]: 500
+
+Ingrese el vector de demanda:
+Demanda[0]: 250
+Demanda[1]: 350
+Demanda[2]: 400
+Demanda[3]: 200
+
+Matriz de asignacion final:
+0 300 0 0
+250 0 150 0
+0 50 250 200
+
+Valor de Z: 2850
+
+------------------------------------
+
+Prueba 3:
+
+Ingrese numero de origenes (m): 4
+Ingrese numero de destinos (n): 6
+
+Ingrese la matriz de costos:
+Costo[0][0]: 1
+Costo[0][1]: 2
+Costo[0][2]: 1
+Costo[0][3]: 4
+Costo[0][4]: 5
+Costo[0][5]: 2
+Costo[1][0]: 3
+Costo[1][1]: 3
+Costo[1][2]: 2
+Costo[1][3]: 1
+Costo[1][4]: 4
+Costo[1][5]: 3
+Costo[2][0]: 4
+Costo[2][1]: 2
+Costo[2][2]: 5
+Costo[2][3]: 9
+Costo[2][4]: 6
+Costo[2][5]: 2
+Costo[3][0]: 3
+Costo[3][1]: 1
+Costo[3][2]: 7
+Costo[3][3]: 3
+Costo[3][4]: 4
+Costo[3][5]: 6
+
+Ingrese el vector de oferta:
+Oferta[0]: 30
+Oferta[1]: 50
+Oferta[2]: 75
+Oferta[3]: 20
+
+Ingrese el vector de demanda:
+Demanda[0]: 20
+Demanda[1]: 40
+Demanda[2]: 30
+Demanda[3]: 10
+Demanda[4]: 50
+Demanda[5]: 25
+
+Matriz de asignacion final:
+20 0 10 0 0 0
+0 20 20 10 0 0
+0 0 0 0 50 25
+0 20 0 0 0 0
+
+Valor de Z: 510
