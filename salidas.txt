@@ -1,4 +1,4 @@
-Prueba 1 (Problema 1):
+Prueba 1:
 
 Ingrese numero de origenes (m): 3
 Ingrese numero de destinos (n): 3
@@ -30,10 +30,103 @@ Matriz de asignacion final:
 0 35 10
 
 Valor de Z: 605
+Origen 0 tiene oferta no asignada de: 0
+Origen 1 tiene oferta no asignada de: 0
+Origen 2 tiene oferta no asignada de: 0
+Destino 0 tiene demanda no satisfecha de: 0
+Destino 1 tiene demanda no satisfecha de: 0
+Destino 2 tiene demanda no satisfecha de: 0
 
 ------------------------------------
 
-Prueba 2 (Problema 4):
+Prueba 2:
+
+Ingrese numero de origenes (m): 3
+Ingrese numero de destinos (n): 3
+
+Ingrese la matriz de costos:
+Costo[0][0]: 6
+Costo[0][1]: 4
+Costo[0][2]: 1
+Costo[1][0]: 3
+Costo[1][1]: 8
+Costo[1][2]: 7
+Costo[2][0]: 4
+Costo[2][1]: 4
+Costo[2][2]: 2
+
+Ingrese el vector de oferta:
+Oferta[0]: 50
+Oferta[1]: 40
+Oferta[2]: 60
+
+Ingrese el vector de demanda:
+Demanda[0]: 20
+Demanda[1]: 95
+Demanda[2]: 35
+
+Matriz de asignacion final:
+0 15 35
+20 20 0
+0 60 0
+
+Valor de Z: 555
+Origen 0 tiene oferta no asignada de: 0
+Origen 1 tiene oferta no asignada de: 0
+Origen 2 tiene oferta no asignada de: 0
+Destino 0 tiene demanda no satisfecha de: 0
+Destino 1 tiene demanda no satisfecha de: 0
+Destino 2 tiene demanda no satisfecha de: 0
+
+------------------------------------
+
+Prueba 3:
+
+Ingrese numero de origenes (m): 3
+Ingrese numero de destinos (n): 4
+
+Ingrese la matriz de costos:
+Costo[0][0]: 9
+Costo[0][1]: 8
+Costo[0][2]: 5
+Costo[0][3]: 7
+Costo[1][0]: 4
+Costo[1][1]: 6
+Costo[1][2]: 8
+Costo[1][3]: 7
+Costo[2][0]: 5
+Costo[2][1]: 8
+Costo[2][2]: 9
+Costo[2][3]: 5
+
+Ingrese el vector de oferta:
+Oferta[0]: 12
+Oferta[1]: 14
+Oferta[2]: 16
+
+Ingrese el vector de demanda:
+Demanda[0]: 8
+Demanda[1]: 18
+Demanda[2]: 13
+Demanda[3]: 3
+
+Matriz de asignacion final:
+0 0 12 0
+8 5 1 0
+0 13 0 3
+
+Valor de Z: 249
+Origen 0 tiene oferta no asignada de: 0
+Origen 1 tiene oferta no asignada de: 0
+Origen 2 tiene oferta no asignada de: 0
+Destino 0 tiene demanda no satisfecha de: 0
+Destino 1 tiene demanda no satisfecha de: 0
+Destino 2 tiene demanda no satisfecha de: 0
+Destino 3 tiene demanda no satisfecha de: 0
+
+----------------------- 
+
+Prueba 4:
 
 Ingrese numero de origenes (m): 3
 Ingrese numero de destinos (n): 4
@@ -69,10 +162,239 @@ Matriz de asignacion final:
 0 50 250 200
 
 Valor de Z: 2850
+Origen 0 tiene oferta no asignada de: 0
+Origen 1 tiene oferta no asignada de: 0
+Origen 2 tiene oferta no asignada de: 0
+Destino 0 tiene demanda no satisfecha de: 0
+Destino 1 tiene demanda no satisfecha de: 0
+Destino 2 tiene demanda no satisfecha de: 0
+Destino 3 tiene demanda no satisfecha de: 0
 
-------------------------------------
+----------------------- 
 
-Prueba 3:
+Prueba 5:
+
+Ingrese numero de origenes (m): 4
+Ingrese numero de destinos (n): 4
+
+Ingrese la matriz de costos:
+Costo[0][0]: 7
+Costo[0][1]: 5
+Costo[0][2]: 9
+Costo[0][3]: 11
+Costo[1][0]: 4
+Costo[1][1]: 3
+Costo[1][2]: 8
+Costo[1][3]: 6
+Costo[2][0]: 3
+Costo[2][1]: 8
+Costo[2][2]: 10
+Costo[2][3]: 5
+Costo[3][0]: 2
+Costo[3][1]: 6
+Costo[3][2]: 7
+Costo[3][3]: 3
+
+Ingrese el vector de oferta:
+Oferta[0]: 30
+Oferta[1]: 25
+Oferta[2]: 20
+Oferta[3]: 15
+
+Ingrese el vector de demanda:
+Demanda[0]: 30
+Demanda[1]: 30
+Demanda[2]: 20
+Demanda[3]: 10
+
+Matriz de asignacion final:
+10 0 20 0
+0 25 0 0
+20 0 0 0
+0 5 0 10
+
+Valor de Z: 445
+Origen 0 tiene oferta no asignada de: 0
+Origen 1 tiene oferta no asignada de: 0
+Origen 2 tiene oferta no asignada de: 0
+Origen 3 tiene oferta no asignada de: 0
+Destino 0 tiene demanda no satisfecha de: 0
+Destino 1 tiene demanda no satisfecha de: 0
+Destino 2 tiene demanda no satisfecha de: 0
+Destino 3 tiene demanda no satisfecha de: 0
+
+----------------------- 
+
+Prueba 6:
+
+Ingrese numero de origenes (m): 3
+Ingrese numero de destinos (n): 4
+
+Ingrese la matriz de costos:
+Costo[0][0]: 50
+Costo[0][1]: 60
+Costo[0][2]: 100
+Costo[0][3]: 50
+Costo[1][0]: 80
+Costo[1][1]: 40
+Costo[1][2]: 70
+Costo[1][3]: 50
+Costo[2][0]: 90
+Costo[2][1]: 70
+Costo[2][2]: 30
+Costo[2][3]: 50
+
+Ingrese el vector de oferta:
+Oferta[0]: 20
+Oferta[1]: 38
+Oferta[2]: 16
+
+Ingrese el vector de demanda:
+Demanda[0]: 10
+Demanda[1]: 18
+Demanda[2]: 22
+Demanda[3]: 24
+
+Matriz de asignacion final:
+10 0 0 10
+0 18 6 14
+0 0 16 0
+
+Valor de Z: 3320
+Origen 0 tiene oferta no asignada de: 0
+Origen 1 tiene oferta no asignada de: 0
+Origen 2 tiene oferta no asignada de: 0
+Destino 0 tiene demanda no satisfecha de: 0
+Destino 1 tiene demanda no satisfecha de: 0
+Destino 2 tiene demanda no satisfecha de: 0
+Destino 3 tiene demanda no satisfecha de: 0
+
+----------------------- 
+
+Prueba 7:
+
+Ingrese numero de origenes (m): 3
+Ingrese numero de destinos (n): 3
+
+Ingrese la matriz de costos:
+Costo[0][0]: 4
+Costo[0][1]: 3
+Costo[0][2]: 5
+Costo[1][0]: 6
+Costo[1][1]: 5
+Costo[1][2]: 4
+Costo[2][0]: 8
+Costo[2][1]: 10
+Costo[2][2]: 7
+
+Ingrese el vector de oferta:
+Oferta[0]: 90
+Oferta[1]: 80
+Oferta[2]: 100
+
+Ingrese el vector de demanda:
+Demanda[0]: 70
+Demanda[1]: 120
+Demanda[2]: 80
+
+Matriz de asignacion final:
+70 20 0
+0 0 80
+0 100 0
+
+Valor de Z: 1660
+Origen 0 tiene oferta no asignada de: 0
+Origen 1 tiene oferta no asignada de: 0
+Origen 2 tiene oferta no asignada de: 0
+Destino 0 tiene demanda no satisfecha de: 0
+Destino 1 tiene demanda no satisfecha de: 0
+Destino 2 tiene demanda no satisfecha de: 0
+
+----------------------- 
+
+Prueba 8:
+
+Ingrese numero de origenes (m): 3
+Ingrese numero de destinos (n): 3
+
+Ingrese la matriz de costos:
+Costo[0][0]: 5
+Costo[0][1]: 7
+Costo[0][2]: 8
+Costo[1][0]: 4
+Costo[1][1]: 4
+Costo[1][2]: 6
+Costo[2][0]: 6
+Costo[2][1]: 7
+Costo[2][2]: 7
+
+Ingrese el vector de oferta:
+Oferta[0]: 70
+Oferta[1]: 30
+Oferta[2]: 50
+
+Ingrese el vector de demanda:
+Demanda[0]: 65
+Demanda[1]: 42
+Demanda[2]: 43
+
+Matriz de asignacion final:
+65 0 5
+0 30 0
+0 12 38
+
+Valor de Z: 835
+Origen 0 tiene oferta no asignada de: 0
+Origen 1 tiene oferta no asignada de: 0
+Origen 2 tiene oferta no asignada de: 0
+Destino 0 tiene demanda no satisfecha de: 0
+Destino 1 tiene demanda no satisfecha de: 0
+Destino 2 tiene demanda no satisfecha de: 0
+
+----------------------- 
+
+Prueba 9:
+
+Ingrese numero de origenes (m): 3
+Ingrese numero de destinos (n): 3
+
+Ingrese la matriz de costos:
+Costo[0][0]: 1
+Costo[0][1]: 8
+Costo[0][2]: 6
+Costo[1][0]: 3
+Costo[1][1]: 7
+Costo[1][2]: 8
+Costo[2][0]: 4
+Costo[2][1]: 9
+Costo[2][2]: 10
+
+Ingrese el vector de oferta:
+Oferta[0]: 50
+Oferta[1]: 45
+Oferta[2]: 40
+
+Ingrese el vector de demanda:
+Demanda[0]: 35
+Demanda[1]: 55
+Demanda[2]: 45
+
+Matriz de asignacion final:
+35 15 0
+0 0 45
+0 40 0
+
+Valor de Z: 875
+Origen 0 tiene oferta no asignada de: 0
+Origen 1 tiene oferta no asignada de: 0
+Origen 2 tiene oferta no asignada de: 0
+Destino 0 tiene demanda no satisfecha de: 0
+Destino 1 tiene demanda no satisfecha de: 0
+Destino 2 tiene demanda no satisfecha de: 0
+
+----------------------- 
+
+Prueba 10:
 
 Ingrese numero de origenes (m): 4
 Ingrese numero de destinos (n): 6
@@ -124,7 +446,143 @@ Matriz de asignacion final:
 0 20 0 0 0 0
 
 Valor de Z: 510
+Origen 0 tiene oferta no asignada de: 0
+Origen 1 tiene oferta no asignada de: 0
+Origen 2 tiene oferta no asignada de: 0
+Origen 3 tiene oferta no asignada de: 0
+Destino 0 tiene demanda no satisfecha de: 0
+Destino 1 tiene demanda no satisfecha de: 0
+Destino 2 tiene demanda no satisfecha de: 0
+Destino 3 tiene demanda no satisfecha de: 0
+Destino 4 tiene demanda no satisfecha de: 0
+Destino 5 tiene demanda no satisfecha de: 0
 
+----------------------- 
+
+Prueba 11:
+
+Ingrese numero de origenes (m): 5
+Ingrese numero de destinos (n): 7
+
+Ingrese la matriz de costos:
+Costo[0][0]: 12
+Costo[0][1]: 7
+Costo[0][2]: 3
+Costo[0][3]: 8
+Costo[0][4]: 10
+Costo[0][5]: 6
+Costo[0][6]: 6
+Costo[1][0]: 6
+Costo[1][1]: 9
+Costo[1][2]: 7
+Costo[1][3]: 12
+Costo[1][4]: 8
+Costo[1][5]: 12
+Costo[1][6]: 4
+Costo[2][0]: 10
+Costo[2][1]: 12
+Costo[2][2]: 8
+Costo[2][3]: 4
+Costo[2][4]: 9
+Costo[2][5]: 9
+Costo[2][6]: 3
+Costo[3][0]: 8
+Costo[3][1]: 5
+Costo[3][2]: 11
+Costo[3][3]: 6
+Costo[3][4]: 7
+Costo[3][5]: 9
+Costo[3][6]: 3
+Costo[4][0]: 7
+Costo[4][1]: 6
+Costo[4][2]: 8
+Costo[4][3]: 11
+Costo[4][4]: 9
+Costo[4][5]: 5
+Costo[4][6]: 6
+
+Ingrese el vector de oferta:
+Oferta[0]: 60
+Oferta[1]: 80
+Oferta[2]: 70
+Oferta[3]: 100
+Oferta[4]: 90
+
+Ingrese el vector de demanda:
+Demanda[0]: 20
+Demanda[1]: 30
+Demanda[2]: 40
+Demanda[3]: 70
+Demanda[4]: 60
+Demanda[5]: 80
+Demanda[6]: 100
+
+Matriz de asignacion final:
+0 0 40 0 20 0 0
+20 0 0 0 30 0 30
+0 0 0 70 0 0 0
+0 30 0 0 0 0 70
+0 0 0 0 10 80 0
+
+Valor de Z: 1930
+Origen 0 tiene oferta no asignada de: 0
+Origen 1 tiene oferta no asignada de: 0
+Origen 2 tiene oferta no asignada de: 0
+Origen 3 tiene oferta no asignada de: 0
+Origen 4 tiene oferta no asignada de: 0
+Destino 0 tiene demanda no satisfecha de: 0
+Destino 1 tiene demanda no satisfecha de: 0
+Destino 2 tiene demanda no satisfecha de: 0
+Destino 3 tiene demanda no satisfecha de: 0
+Destino 4 tiene demanda no satisfecha de: 0
+Destino 5 tiene demanda no satisfecha de: 0
+Destino 6 tiene demanda no satisfecha de: 0
+
+----------------------- 
+
+Prueba 12:
+
+Ingrese numero de origenes (m): 3
+Ingrese numero de destinos (n): 4
+
+Ingrese la matriz de costos:
+Costo[0][0]: 2
+Costo[0][1]: 2
+Costo[0][2]: 2
+Costo[0][3]: 1
+Costo[1][0]: 10
+Costo[1][1]: 8
+Costo[1][2]: 5
+Costo[1][3]: 4
+Costo[2][0]: 7
+Costo[2][1]: 6
+Costo[2][2]: 6
+Costo[2][3]: 8
+
+Ingrese el vector de oferta:
+Oferta[0]: 3
+Oferta[1]: 7
+Oferta[2]: 5
+
+Ingrese el vector de demanda:
+Demanda[0]: 4
+Demanda[1]: 3
+Demanda[2]: 4
+Demanda[3]: 4
+
+Matriz de asignacion final:
+0 0 0 3
+2 0 4 1
+2 3 0 0
+
+Valor de Z: 79
+Origen 0 tiene oferta no asignada de: 0
+Origen 1 tiene oferta no asignada de: 0
+Origen 2 tiene oferta no asignada de: 0
+Destino 0 tiene demanda no satisfecha de: 0
+Destino 1 tiene demanda no satisfecha de: 0
+Destino 2 tiene demanda no satisfecha de: 0
+Destino 3 tiene demanda no satisfecha de: 0
 
 ----------------------- 
 
@@ -149,10 +607,8 @@ Demanda[0]: 5
 Demanda[1]: 10
 Demanda[2]: 10
 
-Matriz de asignacion final:
-0 3 7
-5 7 0
-
-Valor de Z: 52
-
-where is 3?
+El problema no esta balanceado.
+Suma de oferta: 22
+Suma de demanda: 25
+Diferencia entre oferta y demanda: 3
+Por favor balancee el problema e intente de nuevo.
